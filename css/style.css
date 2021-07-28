@@ -16,6 +16,13 @@ body {
   scroll-behavior: smooth;
 }
 
+section {
+  padding: 87px 0;
+}
+
+
+/**************** Header Section *********************/
+
 header {
   background: linear-gradient(148.97deg, #053742 51.69%, #39a2db 179.86%);
   background-size: cover;
@@ -26,10 +33,6 @@ header {
 
 .wrapper {
   margin: 0 auto 0 auto;
-}
-
-section {
-  padding: 87px 0;
 }
 
 .navbar {
@@ -141,7 +144,7 @@ section {
   box-shadow: 0px 5px 5px #14141479 !important;
 }
 
-/*********How does it work ********/
+/*****************************How does it work ***********************************/
 
 .sign-header {
   font-family: Helvetica;
@@ -286,78 +289,8 @@ section {
   padding-left: 120px;
 }
 
-/*****************************************/
 
-@media only screen and (max-width: 1200px) {
-  .hero-text-box {
-    width: 100%;
-    padding: 2% 2% 0 2%;
-  }
-  .header-sign-btn {
-    width: 100%;
-    padding: 0 2%;
-  }
-}
-
-@media all and (max-width: 769px) {
-  .menu {
-    display: block;
-    position: absolute;
-    top: 25px;
-    right: 10px;
-  }
-  .navbar {
-    flex-direction: column;
-    margin: 0 0 0 1rem;
-  }
-  .main-nav {
-    width: 100%;
-    text-align: center;
-    display: none;
-  }
-  .main-nav li {
-    display: block;
-    margin: 2px 0 3px 0;
-  }
-
-  .logo {
-    width: 100%;
-    margin-top: 10px;
-  }
-
-  .active {
-    display: block;
-  }
-
-  .logo-black {
-    display: none;
-  }
-
-  .hero-text-box-header {
-    font-size: 30px;
-  }
-
-  .hero-text-box-para {
-    font-size: 15px;
-  }
-}
-
-@media all and (max-width: 480px) {
-  .hero-text-box-header {
-    font-size: 25px;
-  }
-
-  .hero-text-box-para {
-    font-size: 14px;
-  }
-
-  .header-sign-anchor:link,
-  .header-sign-anchor:visited {
-    width: 220px;
-  }
-}
-
-/*******************************Imagine*********/
+/*******************************Imagine*****************************/
 
 .imagine {
   background: linear-gradient(148.97deg, #053742 51.69%, #39a2db 179.86%);
@@ -380,8 +313,6 @@ section {
   height: 2px;
   margin: 0 auto;
 }
-
-
 
 .imagine-card-common {
   background: #ffffff;
@@ -442,11 +373,11 @@ section {
 }
 
 
-/********* Footer *********/
+/************************ Footer ******************************/
 
 
 footer{
-  background: url('images/footer.svg'),linear-gradient(148.97deg, #053742 70.68%, #39A2DB 198.86%);
+  background: url('../images/footer.svg'),linear-gradient(148.97deg, #053742 70.68%, #39A2DB 198.86%);
   font-size: 16px;
   color: #F2F2F2;
 }
@@ -904,6 +835,78 @@ transform: all 0.4s;
       transform: translate3d(0, 0, 0);
     }
   }
+
+
+/********************* Some Media Query ********************/
+
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 2% 2% 0 2%;
+  }
+  .header-sign-btn {
+    width: 100%;
+    padding: 0 2%;
+  }
+}
+
+@media all and (max-width: 769px) {
+  .menu {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+  }
+  .navbar {
+    flex-direction: column;
+    margin: 0 0 0 1rem;
+  }
+  .main-nav {
+    width: 100%;
+    text-align: center;
+    display: none;
+  }
+  .main-nav li {
+    display: block;
+    margin: 2px 0 3px 0;
+  }
+
+  .logo {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .active {
+    display: block;
+  }
+
+  .logo-black {
+    display: none;
+  }
+
+  .hero-text-box-header {
+    font-size: 30px;
+  }
+
+  .hero-text-box-para {
+    font-size: 15px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .hero-text-box-header {
+    font-size: 25px;
+  }
+
+  .hero-text-box-para {
+    font-size: 14px;
+  }
+
+  .header-sign-anchor:link,
+  .header-sign-anchor:visited {
+    width: 220px;
+  }
+}
   
 
 
