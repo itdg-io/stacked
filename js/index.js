@@ -43,6 +43,14 @@ if ($num % 2 == 0) {
 //     $(this).next().addClass('next');
 // });
 
+$('#side-btn-left').click(function () {
+    $('.my-card.next').click();
+})
+
+$('#side-btn-right').click(function () {
+    $('.my-card.prev').click();
+})
+
 
 $('.my-card').click(function () {
 

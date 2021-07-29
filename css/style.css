@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 html,
 body {
   background-color: #fff;
@@ -13,7 +17,6 @@ body {
   font-weight: 300;
   font-size: 18px;
   overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 
 section {
@@ -591,6 +594,7 @@ transform: all 0.4s;
   margin: 0 20px;
 }
 
+/*
 .card-carousel .my-card:after {
   content: "";
   position: absolute;
@@ -602,6 +606,7 @@ transform: all 0.4s;
   -webkit-filter: blur(4px);
   filter: blur(4px);
 }
+*/
 
 .card-carousel .my-card.active {
   z-index: 3;
@@ -692,7 +697,7 @@ transform: all 0.4s;
 }
 
 #c-1.next {
-  left: 650px;
+  left: 610px;
 }
 
 #c-2.active {
@@ -712,7 +717,7 @@ transform: all 0.4s;
 }
 
 #c-3.prev {
-  left: -650px;
+  left: -610px;
 }
 
 #c-3.next {
@@ -834,6 +839,14 @@ transform: all 0.4s;
       -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0);
     }
+  }
+
+  .carousel-side-btn-holder {
+    margin: auto;
+  }
+
+  .carousel-side-btn {
+    cursor: pointer;
   }
 
 
