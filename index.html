@@ -386,7 +386,7 @@
 
 
 
-    <!------------ Javascript Files --------------->
+    <!-- ---------- Javascript Files --------------->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -400,6 +400,24 @@
     <script src="js/header.js"></script>
     <script src="js/index.js"></script>
 
+    <!-- ---------- Firebase Libraries ---------- -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-firestore.js"></script>
+
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyAk12_o2KClovq2I0fl3saXyP24oknX878",
+            authDomain: "test-project-cb4cc.firebaseapp.com",
+            projectId: "test-project-cb4cc",
+            storageBucket: "test-project-cb4cc.appspot.com",
+            messagingSenderId: "424662353680",
+            appId: "1:424662353680:web:1446fdaf3fa82178294795"
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="js/firebase.js"></script>
 </body>
 </body>
 
