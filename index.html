@@ -340,13 +340,13 @@
 
             </div>
 
-            <div class="email-box">
-                <h5 class="email-box__header mt-2">Email:</h5>
-                <input type="email" name="email">
-            </div>
-            <div class="email-sign-btn">
-                <a class="email-sign-anchor btn" href="#">Sign Up</a>
-            </div>
+            <form>
+                <div class="email-box">
+                    <h5 class="email-box__header mt-2">Email:</h5>
+                    <input id="reg-email" type="email" name="email">
+                </div>
+                <input type="submit" id="reg-btn" class="email-sign-btn" value="Sign Up">
+            </form>
         </div>
     </section>
 
@@ -414,10 +414,12 @@
             messagingSenderId: "424662353680",
             appId: "1:424662353680:web:1446fdaf3fa82178294795"
         };
+        // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
     </script>
 
     <script src="js/firebase.js"></script>
+
 </body>
 </body>
 

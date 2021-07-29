@@ -564,22 +564,23 @@ input[type="email"] {
 }
 .email-sign-btn {
     display: flex;
+    margin: 20px auto;
+    border: none;
     justify-content: center;
+    align-items: center;
+    cursor: pointer;
     margin-top: 22px;
-}
-.email-sign-anchor:link,
-.email-sign-anchor:visited {
-  background: #39a2db ;
-  border-radius: 46px;
-  color: #ffffff;
-  font-size: 18px;
-  width: 190px;
-height: 43px;
-transform: all 0.4s;
+    background: #39a2db ;
+    border-radius: 46px;
+    color: #ffffff;
+    font-size: 18px;
+    width: 190px;
+    height: 43px;
+    transform: all 0.4s;
 }
 
-.email-sign-anchor:hover,
-.email-sign-anchor:active{
+.email-sign-btn:hover,
+.email-sign-btn:active{
     color: #ffffff !important;
     box-shadow: 0px 5px 5px #A2DBFA;
 }
@@ -607,6 +608,10 @@ transform: all 0.4s;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
   transition: 1s;
   margin: 0 20px;
+}
+
+#reg-email {
+  padding-left: 12px;
 }
 
 /*

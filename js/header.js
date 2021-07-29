@@ -30,13 +30,13 @@ const buttonVerifier = document.getElementById('button-verifier');
 const buttonHolder = document.getElementById('button-holder');
 
 $('#button-holder').click(function () {
+     $('#trust-trig-image').removeClass('issuer-state verifier-state holder-state');
+     $('#trust-trig-image').addClass('holder-state');
 
      $("#trig-h").attr("transform", "rotate(0 487.848 250.326)");
      $("#trig-i").attr("transform", "rotate(0 213.726 92.593)");
      $("#trig-v").attr("transform", "rotate(0 215.569 411.809)");
 
-     $('#trust-trig-image').removeClass('issuer-state verifier-state holder-state');
-     $('#trust-trig-image').addClass('holder-state');
 
      $('.sign-main').fadeOut("slow");
      $('.how-para-main').fadeOut("slow");
@@ -72,12 +72,12 @@ $('#button-holder').click(function () {
 
 $('#button-verifier').click(function () {
 
+     $('#trust-trig-image').removeClass('issuer-state verifier-state holder-state');
+     $('#trust-trig-image').addClass('verifier-state');
+
      $("#trig-h").attr("transform", "rotate(120 487.848 250.326)");
      $("#trig-i").attr("transform", "rotate(120 213.726 92.593)");
      $("#trig-v").attr("transform", "rotate(120 215.569 411.809)");
-
-     $('#trust-trig-image').removeClass('issuer-state verifier-state holder-state');
-     $('#trust-trig-image').addClass('verifier-state');
 
      $('.sign-main').fadeOut("slow");
      $('.how-para-main').fadeOut("slow");
@@ -107,13 +107,13 @@ $('#button-verifier').click(function () {
 })
 
 $('#button-issuer').click(function () {
+     $('#trust-trig-image').removeClass('issuer-state verifier-state holder-state');
+     $('#trust-trig-image').addClass('issuer-state');
 
      $("#trig-h").attr("transform", "rotate(240 487.848 250.326)");
      $("#trig-i").attr("transform", "rotate(240 213.726 92.593)");
      $("#trig-v").attr("transform", "rotate(240 215.569 411.809)");
 
-     $('#trust-trig-image').removeClass('issuer-state verifier-state holder-state');
-     $('#trust-trig-image').addClass('issuer-state');
 
      $('.sign-main').fadeOut("slow");
      $('.how-para-main').fadeOut("slow");
