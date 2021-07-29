@@ -92,12 +92,6 @@ header {
 }
 
 .hero-text-box {
-  position: absolute;
-  width: 1140px;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
   z-index: 1000;
 }
 
@@ -126,9 +120,6 @@ header {
 }
 
 .header-sign-btn {
-  position: absolute;
-  top: 80%;
-  left: 45%;
   z-index: 1000;
 }
 .header-sign-anchor:link,
