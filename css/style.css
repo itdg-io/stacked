@@ -439,7 +439,7 @@ footer{
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
-   padding: 120px 70px 20px 70px;
+   padding: 50px 70px 20px 70px;
 }
 
 .footer-list{
@@ -451,7 +451,7 @@ footer{
 }
 
 .footer-list-first{
-  padding-top: 35px !important;
+  padding-top: 40px !important;
 }
 
 .footer-line-bar{
@@ -459,6 +459,12 @@ footer{
   Width: 1200px;
   height: 2px;
   margin: 0 auto 20px auto;
+}
+
+@media all and (max-width: 769px) {
+  .footer-line-bar{
+    display: none;
+  }
 }
 
 .footer-last{
