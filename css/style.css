@@ -328,27 +328,61 @@ header {
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: 23px;
   width: 320px;
-  height: 524px;
-  margin-top: 2rem;
+  height: 500px;
   margin-right: 37px;
 }
 
 .imagine-card-common-1 {
   width: 367px;
-  height: 590px;
+  height: 533px;
   background: #ffffff;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: 23px;
   margin-right: 37px;
 }
 
-.imagine-card-common-2{
+.imagine-card-common-2 {
   background: #ffffff;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: 23px;
   width: 320px;
-  height: 524px;
-  margin-top: 2rem;
+  height: 500px;
+}
+
+@media all and (max-width: 769px) {
+  .imagine-card-common {
+    height: 440px;
+  }
+
+  .imagine-card-common-1 {
+    height: 440px!important;
+  }
+
+  .imagine-card-common-2 {
+    height: 440px!important;
+  }
+}
+
+.imagine-holder-img {
+  width: 5.75rem;
+  height: 10.31rem;
+}
+
+.imagine-verifier-img {
+  width: 7.5rem;
+  height: 5.9rem;
+}
+
+@media all and (max-width: 769px) {  
+  .imagine-holder-img {
+    width: 4rem;
+    height: 6.96rem;
+  }
+
+  .imagine-verifier-img {
+    width: 6.5rem;
+    height: 5rem;
+  }
 }
 
 .imagine-cards-first {
@@ -513,7 +547,7 @@ footer{
 
 .issuer-img {
   height: 6.25rem;
-  width: 8.43rem;
+  width: 9.1rem;
 }
 
 .verifier-img {
