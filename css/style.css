@@ -200,9 +200,9 @@ header {
   background-color: white !important;
 }
 
-.sign-main {
-  padding: 40px 30px 30px 85px;
-}
+/* .sign-main {
+  padding: 40px 30px 30px 50px;
+} */
 
 .sign-header-main {
   font-family: Helvetica;
@@ -273,14 +273,14 @@ header {
   flex-direction: column;
 }
 
-.how-para,
+/* .how-para,
 .how-para-1 {
   padding-left: 90px;
-}
+} */
 
 .how-list {
   padding-top: 5px;
-  padding-left: 120px;
+  padding-left: 90px;
 }
 
 #trust-trig-image {
@@ -297,6 +297,16 @@ header {
 
 #trust-trig-image.holder-state {
   transform: rotate(0deg);
+}
+
+@media all and (max-width: 769px) {
+  .how-animation-div {
+    display: none;
+  }
+
+  .how-para, .how-para-1 {
+    padding-left: 30px;
+  }
 }
 
 /*******************************Imagine*****************************/
