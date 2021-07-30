@@ -634,7 +634,7 @@ input[type="email"] {
 }
 
 .card-carousel .my-card {
-  width: 281px;
+  min-width: 280px;
   height: 392px;
   position: relative;
   z-index: 1;
@@ -759,7 +759,7 @@ input[type="email"] {
 }
 
 #c-1.active {
-  left: 310px;
+  left: 33%;
 }
 
 #c-1.prev {
@@ -767,7 +767,7 @@ input[type="email"] {
 }
 
 #c-1.next {
-  left: 610px;
+  left: 71%;
 }
 
 #c-2.active {
@@ -775,23 +775,118 @@ input[type="email"] {
 }
 
 #c-2.prev {
-  left: -310px;
+  left: -33%;
 }
 
 #c-2.next {
-  left: 310px;
+  left: 33%;
 }
 
 #c-3.active {
-  left: -310px;
+  left: -33%;
 }
 
 #c-3.prev {
-  left: -610px;
+  left: -71%;
 }
 
 #c-3.next {
   left: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .card-carousel .my-card {
+    min-width: 240px;
+  }
+
+  #c-1.active {
+    left: 36%;
+  }
+  
+  #c-1.prev {
+    left: 0px;
+  }
+  
+  #c-1.next {
+    left: 72.5%;
+  }
+  
+  #c-2.active {
+    left: 0;
+  }
+  
+  #c-2.prev {
+    left: -36%;
+  }
+  
+  #c-2.next {
+    left: 36%;
+  }
+  
+  #c-3.active {
+    left: -36%;
+  }
+  
+  #c-3.prev {
+    left: -72.5%;
+  }
+  
+  #c-3.next {
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .prev, .next {
+    display: none;
+  }
+
+  .card-carousel .my-card {
+    min-width: 240px;
+  }
+
+  #c-1.active {
+    left: 0;
+  }
+
+  #c-2.active {
+    left: 0;
+  }
+  
+  #c-3.active {
+    left: 0;
+  }
+  
+}
+
+@media only screen and (max-width: 425px) {
+  .prev, .next {
+    display: none;
+  }
+
+  .card-carousel .my-card {
+    min-width: 224px;
+  }
+
+ .col-1.carousel-side-btn-holder.right-side {
+   left: -40px;
+  }
+
+ .col-1.carousel-side-btn-holder.left-side {
+    left: -5px;
+  }
+
+  #c-1.active {
+    left: 0;
+  }
+
+  #c-2.active {
+    left: 0;
+  }
+
+  #c-3.active {
+    left: 0;
+  }
 }
 
 
