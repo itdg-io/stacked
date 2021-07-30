@@ -70,10 +70,10 @@
             <div class="row">
                 <div class="col">
                     <div
-                        style="width: 400px; height: 570px; background: linear-gradient(90deg, rgba(255, 255, 255, 0.575) 54.17%, rgba(255, 255, 255, 0) 100%); position: absolute; z-index: 100;">
+                        style="width: 400px; height: 557px; background: linear-gradient(90deg, rgba(255, 255, 255, 0.575) 54.17%, rgba(255, 255, 255, 0) 100%); position: absolute; z-index: 100;">
                     </div>
-                    <svg id="trust-trig-image" class="issuer-state overlay-left" width="557" height="502"
-                        viewBox="0 0 557 502" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg style="transition: all 1s ease;" id="trust-trig-image" class="issuer-state overlay-left"
+                        width="557" height="557" viewBox="0 0 557 502" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle opacity="0.7" cx="305.479" cy="250.81" r="182.5"
                             transform="rotate(-0.185882 305.479 250.81)" stroke="#E8F0F2" stroke-width="3" />
                         <circle cx="305.479" cy="250.81" r="249" transform="rotate(-0.185882 305.479 250.81)"
@@ -345,6 +345,7 @@
                     <h5 class="email-box__header mt-2">Email:</h5>
                     <input id="reg-email" type="email" name="email">
                 </div>
+                <p id="reg-err"></p>
                 <input type="submit" id="reg-btn" class="email-sign-btn" value="Sign Up">
             </form>
         </div>
