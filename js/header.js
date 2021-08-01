@@ -49,8 +49,8 @@ $('#button-holder').click(function () {
           $('.sign-header-main').replaceWith("<h1 class='sign-header-main'>The Holder</h1>");
      });
      $('.how-para-main').fadeIn(5, function () {
-          $('.how-para').replaceWith('<p class="how-para px-5">Everyday-people who hold academic credentials. The holder will store each digital credential in a digital wallet that is privacy preserving and completely controlled by the owner.</p>')
-          $('.how-para-1').replaceWith('<p class="how-para-1 px-5">Example of credentials that can be stored :</p>')
+          $('.how-para').replaceWith('<p class="how-para px-5">Everyday people who hold academic credentials. The holder will store each digital credential in a digital wallet that is privacy preserving and completely controlled by the owner.</p>')
+          $('.how-para-1').replaceWith('<p class="how-para-1 px-5">Examples of credentials that can be stored:</p>')
      });
      $('.how-list').fadeIn(5, function () {
           $('.how-list-1').replaceWith('<dd class="how-list-1">-  &nbsp;&nbsp;Graduation Certificate</dd>')
@@ -89,9 +89,9 @@ $('#button-verifier').click(function () {
           $('.sign-header-main').replaceWith("<h1 class='sign-header-main'>The Verifier</h1>");
      });
 
-     
 
-     
+
+
      $('.how-para-main').fadeIn(5, function () {
           $('.how-para').replaceWith('<p class="how-para px-5">The verifier is an entity or organisation that wishes to verify claims or credentials of a certain individual so that they can provide a service. They can make requests to see specific information in a credential.</p>')
           $('.how-para-1').replaceWith('<p class="how-para-1 px-5">Examples of Verifiers:</p>')
@@ -131,12 +131,12 @@ $('#button-issuer').click(function () {
      });
      $('.how-para-main').fadeIn(5, function () {
           $('.how-para').replaceWith('<p class="how-para px-5">The issuer is an entity or organisation that issues credentials or other form of claims to individuals.</p>')
-          $('.how-para-1').replaceWith('<p class="how-para-1 px-5">Example of issuers:</p>')
+          $('.how-para-1').replaceWith('<p class="how-para-1 px-5">Examples of issuers:</p>')
      });
      $('.how-list').fadeIn(5, function () {
           $('.how-list-1').replaceWith('<dd class="how-list-1">-  &nbsp;&nbsp;High Schools</dd>')
           $('.how-list-2').replaceWith('<dd class="how-list-2">-  &nbsp;&nbsp;Universities</dd>')
-          $('.how-list-3').replaceWith('<dd class="how-list-3">-  &nbsp;&nbsp;Organisation Presidents</dd>')
+          $('.how-list-3').replaceWith('<dd class="how-list-3">-  &nbsp;&nbsp;Organisation President</dd>')
           $('.how-list-4').replaceWith('<dd class="how-list-4">-  &nbsp;&nbsp;Examination Authority</dd>')
 
      });

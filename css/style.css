@@ -41,7 +41,7 @@ header {
 .navbar {
   display: flex;
   align-items: center;
-  margin: 0 10px 0 4.4rem;
+  margin: 0 5rem;
 }
 
 .logo {
