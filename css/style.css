@@ -503,6 +503,11 @@ footer{
  
 }
 
+.footer-link, .footer-link:hover, .footer-link:visited {
+  text-decoration: none;
+  color: white;
+}
+
 
 /***********************Sign Up*******************************/
 
